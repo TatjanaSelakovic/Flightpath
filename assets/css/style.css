@@ -1,0 +1,810 @@
+.listBar li {
+    padding-right: 50px;
+}
+
+.navBar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+}
+
+.navBar a {
+    color: white;
+}
+
+.mainSection:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    top: 0;
+    left: 0;
+}
+
+body.active .navBar {
+    background: white;
+    z-index: 10000;
+}
+
+body.active .navBar a {
+    color: black;
+}
+
+li.nav-item.navButton a {
+    border: 1px solid blue;
+    background: blue;
+    padding: 10px 40px;
+}
+
+li.nav-item.navButton {
+    padding-right: 0;
+}
+
+li.nav-item.navButton a:hover{
+    background: yellow;
+    border: 1px solid blue;
+    color: white;
+    transition: 1s;
+}
+
+.digitalMarketing {
+    width: 100%;
+    text-align: center;
+}
+
+.digitalMarketing h2 {
+    font-size: 50px;
+    padding: 50px 100px;
+}
+
+.digitalMarketing h5 {
+    width: 500px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.phoneVideo video {
+    width: 100%;
+    max-width: 500px;
+}
+
+.phoneVideo {
+    text-align: right;
+}
+
+.approachRight {
+    overflow: hidden;
+}
+
+.ourApproachText h2 {
+    font-size: 60px;
+    padding: 30px 0;
+}
+
+.ourApproachText h5{
+    max-width: 500px;
+    padding-bottom: 30px;
+}
+
+.ourApproachText a {
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px 50px;
+    display: inline-block;
+}
+
+.ourApproachText a:hover{
+    border: 1px solid blue;
+    color: white;
+    background: blue;
+    transition: 1s;
+}
+
+.agencyText ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.agencyText li {
+    padding-bottom: 20px;
+}
+
+.agencyText{
+    padding-left: 50px;
+}
+
+.agencyExpertize {
+    background: #f5f4f4;
+    padding: 120px 0;
+}
+
+.discoverHeading h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+.heading{
+top: 30%;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: 100%;
+text-align: center;
+position: absolute;
+color: white;
+}
+
+.heading h1 {
+    font-size: 80px;
+}
+
+.headingLink a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 60px;
+    display: inline-block;
+}
+
+.headingLink{
+    text-align: right;
+}
+
+.headingLink1 a {
+    text-decoration: none;
+    color: white;
+    background: blue;
+    border: 1px solid blue;
+    padding: 10px 60px;
+    display: inline-block;
+}
+
+.headingLink a:hover{
+    border: 1px solid white;
+    background: white;
+    color: blue;
+    transition: 1s;
+}
+
+.headingLinks{
+    padding-top: 20px;
+}
+
+.headingLink1{
+    text-align: left;
+}
+
+.heroPic{
+    position: relative;
+}
+
+.discoverLeft img{
+    height: 800px;
+    object-fit: cover;
+}
+
+.discoverText {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 30px;
+}
+
+
+.discoverText h2 {
+    text-align: left;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.spectrumPic {
+    position: relative;
+}
+
+
+.goyaPic{
+    position: relative;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.discoverLink {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.someClients h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.someClients img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.someClients {
+    padding: 100px 0;
+}
+
+.followUs{
+    background: #f5f4f4;
+    padding: 100px 0 150px 0;
+}
+
+.followLeft img {
+    max-width: 100%;
+    width: 120px;
+}
+
+.followSecond {
+    padding-top: 40px;
+}
+
+.followUs h2 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.followRight span {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.followLeft span {
+    display: block;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.followRight img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.followLink {
+    padding-top: 20px;
+}
+
+.col-sm-6.agencyPic img {
+    width: 100%;
+}
+
+.discoverOurWork img {
+    width: 100%;
+}
+
+.workTogether {
+    background: #4141d0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.workTogether h2 {
+    color: white;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.workTogether a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 50px;
+    display: inline-block;
+}
+
+.workTogether a:hover{
+    border: 1px solid white;
+    color: blue;
+    background: white;
+    transition: 1s;
+}
+
+.video-banner.videos-data {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.footerFlightpath {
+    background: #3c3a3a;
+    color: white;
+    padding: 100px 20px;
+}
+
+.footerFlightpath ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footerFourth {
+    padding-left: 70px;
+}
+
+.footerSecond {
+    padding-left: 50px;
+}
+
+.footerIcons {
+    padding-left: 70px;
+}
+
+.footerIcons li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.footerIcons i{
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.footerPrivacy {
+    background: #232323;
+}
+
+.footerPrivacy p {
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.privacyPolicy a{
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.privacyPolicy{
+    text-align: right;
+}
+
+@media(max-width:1499px) and (min-width:1300px){
+    .heading h1 {
+        font-size: 50px;
+    }
+
+    .heading h3 {
+        font-size: 20px;
+    }
+    
+}
+
+@media(max-width:1200px){
+
+
+    .footerIcons {
+        padding-left: 0;
+    }
+
+    .heading h1 {
+        font-size: 60px;
+    }
+
+    .heading h3 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:991px){
+    .heading h1 {
+        font-size: 40px;
+    }
+
+    .heading h3 {
+        font-size: 15px;
+    }
+
+    .headingLinks {
+        font-size: 12px;
+    } 
+
+    .navBar img {
+        width: 80px;
+    }
+
+    .digitalMarketing h2 {
+        font-size: 40px;
+        padding: 50px 0;
+    }
+
+    .ourApproachText h2 {
+        font-size: 50px;
+    }
+
+    .discoverText h2 {
+        font-size: 30px;
+    }
+
+    .discoverText h4 {
+        font-size: 20px;
+    }
+    
+    .followUs h2 {
+        font-size: 50px;
+    }
+    
+    .followRight img{
+        width: 500px;
+    }
+
+    .ourApproachText h5 {
+        font-size: 17px;
+    }
+
+    .heroPic img{
+        height: 500px;
+    }
+
+    .footerBlock{
+        display: none;
+    }
+
+    .footerFourth {
+        padding-left: 25px;
+    }
+
+    .flightpathFooter img {
+        width: 150px;
+    }
+
+    .footerFlightpath {
+        padding: 70px 20px;
+    }
+}
+
+@media(max-width:767px){
+
+    .heading h3 {
+        font-size: 12px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    } 
+
+    .headingLinks {
+        font-size: 10px;
+    }
+
+    .headingLinks a {
+        padding: 10px 30px;
+    }
+
+    .digitalMarketing h2 {
+        padding-bottom: 10px;
+        padding-top: 0;
+        font-size: 25px;
+    }
+
+    .ourApproachText {
+        padding-bottom: 20px;
+    }
+
+    .digitalMarketing h5 {
+        padding-bottom: 20px;
+    }
+
+    .ourApproachText h2 {
+        padding: 10px 0;
+        font-size: 40px;
+    }
+
+    .ourApproachText {
+        text-align: center;
+    }
+
+    .agencyExpertize {
+        padding: 30px 0;
+    }
+
+    .agencyText {
+        padding: 0;
+    }
+
+    .discoverHeading h2 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .discoverLink {
+        padding: 20px 0;
+    }
+
+    .someClients {
+        padding: 30px 0;
+    }
+
+    .someClients img {
+        padding-bottom: 20px;
+    }
+
+    .clientsRow {
+        text-align: center;
+    }
+
+    .followUs {
+        padding: 30px 0;
+    }
+
+    .someClients h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .followUs h2 {
+        font-size: 40px;
+    }
+
+    .followFirst img {
+        width: 60px;
+    }
+
+    .followSecond img {
+        width: 60px;
+    }
+
+    .followSecond {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .followRight img {
+        width: 350px;
+    }
+
+    .followRight, .followLeft span {
+        text-align: center;
+    }
+
+    .followFirst, .followSecond {
+        text-align: center;
+    }
+
+    .followBlock{
+        display: none;
+    }
+
+    .approachRight{
+        display: none;
+    }
+
+    .approachLeft{
+        margin: auto;
+    }
+
+    .agencyPic{
+        display: none;
+    }
+
+    .workTogether {
+        padding: 50px 0;
+    }
+
+    .workTogether h2 {
+        font-size: 35px;
+    }
+
+    .workTogether a {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+
+    .footerRow{
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerIcons {
+        padding-top: 20px;
+    }
+
+    .ourApproachText{
+        margin: auto;
+    }
+
+    .ourApproachText a{
+        padding: 10px 40px;
+    }
+
+    .workTogether h2 {
+        font-size: 40px;
+    }
+    
+    .footerBlock{
+        display: none;
+    }    
+
+    .footerIcons i {
+        left: 60px;
+        top: 9px;
+    }
+
+    .footerSecond {
+        padding-left: 0;
+    }
+}
+
+@media(max-width:575px){
+    .mainSection {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .mainSection video{
+        display: none;
+    }
+
+    .mainSection{
+        background: url("../images/Home-Hero-1200Kbps30fps-1920X1080.jpg");
+        background-size: cover;
+    }
+    .navBar img {
+        width: 30px;
+    } 
+
+    .navBar button {
+        font-size: 10px;
+    }
+
+    .heading{
+        top: 18%;
+    }
+
+    .heading h3 {
+        font-size: 7px;
+    }
+
+    .headingLinks {
+        font-size: 6px;
+        padding-top: 5px;
+    }
+
+    .headingLinks a {
+        padding: 5px 20px;
+    }
+
+    .heading h1 {
+        font-size: 15px;
+    }
+
+    .digitalMarketing h2 {
+        font-size: 20px;
+    }
+    
+    .digitalMarketing h5{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .ourApproachText h2{
+        font-size: 25px;
+    }
+
+    .ourApproachText h5 {
+        font-size: 15px;
+    }    
+
+    .ourApproachText{
+        text-align: center;
+        padding: 0;
+    }
+
+    .discoverHeading h2{
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    .discoverLink {
+        margin-top: 20px;
+    }
+
+    .discoverText h4 {
+        font-size: 15px;
+    }
+
+    .heroPic img{
+        height: 300px;
+    }
+
+    .goyaPic img{
+        padding: 0;
+    }
+
+    .ourApproachText a{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .agencyText li h4 {
+        font-size: 20px;
+    }
+
+    .agencyText h5 {
+        padding: 0 5px 10px;
+    }
+
+    .someClients {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .someClients h2 {
+        font-size: 30px;
+    }
+
+    .someClients img {
+        padding-bottom: 30px;
+    }
+
+    .followUs h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .followUs {
+        padding: 20px 0;
+    }
+
+    .followFirst, .followSecond {
+        text-align: center;
+    }
+
+    .followFirst img, .followSecond img {
+        padding-bottom: 10px;
+        width: 100px;
+    }
+    
+    .followLeft span, .followRight span{
+        display: block;
+        text-align: center;
+    }    
+
+    .followSecond {
+        padding-top: 0;
+    }
+
+    .followLink {
+        margin-top: 20px;
+    }
+
+    .workTogether h2 {
+        font-size: 30px;
+    }
+
+    .flightpathFooter {
+        padding-bottom: 30px;
+    }
+
+    .footerSecond {
+        padding: 0 0 30px;
+    }
+
+    .footerFlightpath {
+        padding: 30px 0;
+    }
+
+    .footerIcons i {
+        left: 80px;
+        top: 9px;
+    }
+
+    .privacyPolicy {
+        text-align: left;
+    }
+    
+    
+    
+}
